@@ -4,10 +4,3 @@
 
 layout: home
 ---
-
-<link rel="stylesheet" href="/assets/css/tabs.css">
-
-<div class="tabs">
-  <a class="tab" href="assets/Peter_Dang_Resume.pdf">Resume</a>
-  <a class="tab" href="/contact/">Contact</a>
-</div>
