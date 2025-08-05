@@ -70,9 +70,3 @@ permalink: /portfolio/
   <p>Banking/wallet product that scans/produces QR codes to pay/receive money. Developing it as a REST API first.</p>
   <p><strong>Technologies:</strong> Node.js, Express, Microsoft SQL Server</p>
 </div>
-
-<div class="product-card">
-  <h3>Banking Product Coming Soon.</h3>
-  <p>Banking/wallet product that scans/produces QR codes to pay/receive money. Developing it as a REST API first.</p>
-  <p><strong>Technologies:</strong> Node.js, Express, Microsoft SQL Server</p>
-</div>
