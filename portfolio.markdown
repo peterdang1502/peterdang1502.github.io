@@ -4,6 +4,7 @@ title: Portfolio
 permalink: /portfolio/
 ---
 
+<link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" href="/assets/css/portfolio.css">
 
 ## Professional Products
