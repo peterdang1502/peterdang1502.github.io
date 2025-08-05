@@ -16,3 +16,6 @@
   border-radius: 4px;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
+.product-card.enhesa .product-images img {
+  height: 500px;
+}
