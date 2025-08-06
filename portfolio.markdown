@@ -63,7 +63,7 @@ permalink: /portfolio/
   <p><strong>Responsibilities:</strong> Backend unit tester. Wore multiple hats in a 5-person team startup.</p>
 </div>
 
-## Personal Products
+## Personal Projects
 
 <div class="product-card">
   <h3>Banking Product Coming Soon.</h3>
