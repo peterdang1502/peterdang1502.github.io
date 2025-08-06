@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from datetime import datetime
+from yattag import Doc
 
 URL = "https://www.mlb.com/schedule"
 page = requests.get(URL)
@@ -115,13 +116,15 @@ for i in range(1, len(list(grid.children))):
         div = list(grid.children)[i]
         break
 
+doc, tag, text = Doc().tagtext()
+
 for div2 in div.children:
     div3 = list(div2.children)[0]
     away = list(div3.children)[0]
     home = list(div3.children)[2]
     away = list(list(away.div.div.a.children)[1].div.children)[0].string
     home = list(list(home.div.div.a.children)[1].div.children)[0].string
-    print(away + " " + home)
+    # print(away + " " + home)
 
     score = 0
     for stat in stats:
@@ -129,4 +132,29 @@ for div2 in div.children:
     
     for stat in inverse_stats:
         score = get_stats(stat, away, home, score, True)
-    print(score)
+    # print(score)
+
+    # f.write(away + " " + home + " " + str(score) + "\n")
+
+    with tag('div', klass='matchup'):
+        doc.stag('img', src='/assets/images/mlb/' + away + '.svg', klass='team-logo')
+        if (score < 0):
+            with tag('span', klass='team-name bold'):
+                text(away)
+            with tag('span', klass='at'):
+                text(" @ ")
+            with tag('span', klass='team-name'):
+                text(home)
+        else:
+            with tag('span', klass='team-name'):
+                text(away)
+            with tag('span', klass='at'):
+                text(" @ ")
+            with tag('span', klass='team-name bold'):
+                text(home)
+        doc.stag('img', src='/assets/images/mlb/' + home + '.svg', klass='team-logo')
+
+f = open("./_includes/picks.md", 'w')
+f.write(doc.getvalue())
+f.close()
+
