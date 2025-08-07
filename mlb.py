@@ -154,7 +154,7 @@ for div2 in div.children:
                 text(home)
         doc.stag('img', src='/assets/images/mlb/' + home + '.svg', klass='team-logo')
 
-f = open("./_includes/picks.md", 'w')
+f = open("sportsbetting.markdown", 'a')
 f.write(doc.getvalue())
 f.close()
 
