@@ -66,6 +66,12 @@ permalink: /portfolio/
 ## Personal Projects
 
 <div class="product-card">
+  <h3><a href="https://pypi.org/project/standard-playing-card/">Python Playing Card Library</a></h3>
+  <p>Simple Python library for creating a standard French-suited playing card (2 of Clubs for example)</p>
+  <p><strong>Technologies:</strong> Python</p>
+</div>
+
+<div class="product-card">
   <h3>Banking Product Coming Soon.</h3>
   <p>Banking/wallet product that scans/produces QR codes to pay/receive money. Developing it as a REST API first.</p>
   <p><strong>Technologies:</strong> Node.js, Express, Microsoft SQL Server</p>
