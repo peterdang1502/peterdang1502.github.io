@@ -70,7 +70,7 @@ permalink: /portfolio/
   <h4><a href="https://pypi.org/project/standard-playing-card/">Playing Card Library</a></h4>
   <p>Library for creating a standard French-suited playing card (2 of Clubs for example)</p>
   <h4><a href="https://pypi.org/project/card-shoe/">Card Shoe Library</a></h4>
-  <p>Library for creating card shoes with multiple decks for blackjack and casino usage.</p>
+  <p>Library for creating card shoes with multiple decks for blackjack and casino usage. Built using the standard playing card library above.</p>
   <p><strong>Technologies:</strong> Python</p>
 </div>
 
