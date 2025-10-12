@@ -1,1 +1,1 @@
-<div class="matchup"><img src="/assets/images/mlb/CHC.svg" class="team-logo" /><span class="team-name bold">CHC</span><span class="at"> @ </span><span class="team-name">MIL</span><img src="/assets/images/mlb/MIL.svg" class="team-logo" /></div>
+<div class="matchup"><img src="/assets/images/mlb/SEA.svg" class="team-logo" /><span class="team-name">SEA</span><span class="at"> @ </span><span class="team-name bold">TOR</span><img src="/assets/images/mlb/TOR.svg" class="team-logo" /></div>
